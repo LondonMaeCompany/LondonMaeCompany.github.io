@@ -489,7 +489,7 @@ hr.black{
 }
 .text{        
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     color: #5f5f5f;
     line-height: 1.8;
 }
@@ -1559,6 +1559,7 @@ a.btn-mod:focus{
 }
 .nav-logo-wrap .logo img{
     max-height: 100%;
+    max-width: 80%;
 }
 .nav-logo-wrap .logo:before,
 .nav-logo-wrap .logo:after{
@@ -2438,6 +2439,25 @@ a.logo:hover{
  * Common
  */
 
+.page-section {
+    width: 100%;
+    display: block;    
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 140px 0;
+
+}
+
 .page-section,
 .small-section{
     width: 100%;
@@ -2447,16 +2467,13 @@ a.logo:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    
     padding: 140px 0;
 }
 .small-section{
@@ -2816,7 +2833,7 @@ a.logo:hover{
 }
 .section-text{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     color: #777;
     line-height: 1.7;
 }
@@ -3783,7 +3800,7 @@ a.logo:hover{
 .banner-decription{
     margin-bottom: 35px;
     font-size: 15px;    
-    font-weight: 300;
+    font-weight:400;
     color: rgba(255,255,255, .7);
 }
 
