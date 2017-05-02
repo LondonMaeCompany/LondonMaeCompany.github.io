@@ -1,0 +1,2 @@
+[submodule "ldpproto"]
+	path = ldpproto url = https://github.com/LondonMaeCompany/ldpproto
